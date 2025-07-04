@@ -1,0 +1,27 @@
+.form-con{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13.5%;
+    margin-bottom: 8%;
+    border: none;
+}
+form input{
+    padding-left: 4px;
+  
+}
+input{
+    text-align: left;
+}
+h2{
+    color:rgb(255, 255, 255);
+}
+p{
+    color:rgb(255, 255, 255);
+}
+span{
+    color:aliceblue;
+}
+.form{
+    background: black;
+}

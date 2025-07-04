@@ -1,0 +1,35 @@
+.form-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9.5%;
+    border: none;
+}
+form input{
+    padding-left: 4px;
+  
+}
+input{
+    text-align: left;
+}
+h2{
+    color:rgb(255, 255, 255);
+}
+p{
+    color:rgb(255, 255, 255);
+}
+span{
+    color:aliceblue;
+}
+.form{
+    background: black;
+}
+body{
+    background: linear-gradient(to top, rgb(11, 0, 52),rgba(57, 0, 36, 0.982) rgb(0, 63, 83));
+    
+}
+.link-style {
+    text-decoration: none;
+    color: white;
+  }
+  

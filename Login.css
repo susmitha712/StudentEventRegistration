@@ -1,0 +1,117 @@
+/* .form-containers{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10.5%;
+    margin-bottom: 7%;
+    border: none;
+}
+form input{
+    padding-left: 4px;
+  
+}
+input{
+    text-align: left;
+}
+.form-container h2{
+    color:rgb(0, 0, 0);
+}
+
+span{
+    color:aliceblue;
+}
+.form{
+    background: black;
+}
+
+.form-container span{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+    
+   */
+.link-style {
+    text-decoration: none;
+    color: white;
+  }
+  .form-container p{
+    color:rgb(255, 255, 255);
+}
+
+   .form-containers {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex; /* Centers the form */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: none; /* Removed white background */
+}
+
+.video-background {
+  position: fixed; /* Make sure it sticks to full screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-container {
+  /* background: rgba(255, 255, 255, 0.9);  */
+  backdrop-filter: blur(10px); /* This blurs the background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgb(130, 226, 255);
+  width: 300px;
+  text-align: center;
+  z-index: 1;
+}
+
+.form-container h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.form-container input {
+  width: 95%;
+  padding: 10px;
+  
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-right: 5%;
+}
+
+/* .form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+} */
+
+/* .form-container button:hover {
+  background-color: #0056b3;
+} */
+
+.link-style {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link-style:hover {
+  text-decoration: underline;
+}

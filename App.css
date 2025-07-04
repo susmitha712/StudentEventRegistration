@@ -1,0 +1,49 @@
+.form-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px; 
+  text-align: center;
+   box-shadow: 0px 0px 10px rgba(100, 99, 99, 0.985); 
+  border:1px rgb(12, 13, 14)
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding:7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 2px solid rgb(68, 68, 68);
+  font-family:poppins,sans-serif;
+  font-weight: 700;
+  box-shadow: #84ffff;
+}
+button:hover{
+background-color: rgb(0, 0, 0);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+border:2px solid  rgba(194, 194, 194, 0.14);
+box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.281);
+transition: box-shadow 0.3s ease;
+}
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,50 @@
+.card-container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: rgba(12, 110, 89, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    text-align: center;
+  }
+  
+  .typing-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .red-text {
+   
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+  }
+  
+  .blue-text {
+    color: rgb(247, 255, 18);
+    font-weight: bold;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 6px;
+    height:12px;
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  
